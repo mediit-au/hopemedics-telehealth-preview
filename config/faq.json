@@ -1,0 +1,40 @@
+{
+  "faq": [
+    {
+      "question": "Who can use bulk-billed telehealth?",
+      "answer": "You need a valid Medicare card and either a face-to-face appointment at Hope Medics in the last 12 months or a listed Medicare exemption. The questions on this page check this for you, and the practice confirms your eligibility."
+    },
+    {
+      "question": "I haven't been seen at Hope Medics in the last 12 months. Can I still use this?",
+      "answer": "You may still qualify under a Medicare exemption. If you answer \"No\" or \"I'm not sure\", we'll show you the exemptions so you can choose any that apply. The team will check this with you when they call."
+    },
+    {
+      "question": "Does this book my appointment?",
+      "answer": "Not by itself. If you look eligible, you can leave your details and you'll get a reference number. The Hope Medics team will then call you to confirm your details and book your appointment."
+    },
+    {
+      "question": "What details will I need?",
+      "answer": "Have your Medicare card handy. We'll ask for the patient's first and last name, date of birth, phone number, email and Medicare number, and for your consent to be contacted."
+    },
+    {
+      "question": "What happens to my details?",
+      "answer": "They're sent to the Hope Medics team in a password-protected file so the team can contact you. They aren't stored in this screening system."
+    },
+    {
+      "question": "How does the natural disaster check work?",
+      "answer": "Choose your suburb and postcode, and we'll check your area against the list of declared natural disasters. You don't need to know any disaster details. If your area looks eligible, or we can't confirm it automatically, the team will check it with you when they call."
+    },
+    {
+      "question": "Are there limits on scripts, certificates and referrals?",
+      "answer": "Yes. Prescriptions, medical certificates and referral letters each have a short notice to read before you continue.\n\nFor example, we <strong>do not provide backdated medical certificates</strong>, and referral letters through this service are for <strong>private specialists only</strong>."
+    },
+    {
+      "question": "What if I'm not eligible?",
+      "answer": "We'll show you how to contact Hope Medics by phone, by email or in person, and the team can talk through your options."
+    },
+    {
+      "question": "What if it's urgent?",
+      "answer": "This service is not for emergencies. <strong>In an emergency call 000.</strong>\n\nFor non-urgent advice call healthdirect on 1800 022 222."
+    }
+  ]
+}

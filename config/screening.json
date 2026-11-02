@@ -1,0 +1,53 @@
+{
+  "start": "card",
+  "questions": [
+    {
+      "id": "card",
+      "eyebrow": "Medicare",
+      "title": "Do you have a valid Medicare card?",
+      "options": [
+        { "value": "yes", "label": "Yes", "next": "seen" },
+        { "value": "no", "label": "No", "outcome": "notEligible" }
+      ]
+    },
+    {
+      "id": "seen",
+      "eyebrow": "Your last visit",
+      "title": "Have you had a face-to-face appointment at Hope Medics in the last 12 months?",
+      "options": [
+        { "value": "yes", "label": "Yes", "outcome": "eligible" },
+        { "value": "no", "label": "No", "next": "exemption" },
+        { "value": "unsure", "label": "I'm not sure", "next": "exemption" }
+      ]
+    },
+    {
+      "id": "exemption",
+      "eyebrow": "Exemptions",
+      "title": "Does any of these apply?",
+      "hint": "You may still qualify under a Medicare exemption.",
+      "options": [
+        { "value": "infant", "label": "The patient is a child under 12 months old", "outcome": "potentiallyEligible" },
+        { "value": "homeless", "label": "Currently experiencing homelessness", "outcome": "potentiallyEligible" },
+        { "value": "ams", "label": "A patient of an Aboriginal Medical Service (AMS / ACCHS)", "outcome": "potentiallyEligible" },
+        { "value": "covid", "label": "Isolating under a COVID-19 public health order", "outcome": "potentiallyEligible" },
+        { "value": "disaster", "label": "Located in a declared natural disaster-affected area", "check": "disaster" },
+        { "value": "none", "label": "None of these apply", "outcome": "notEligible" }
+      ]
+    }
+  ],
+  "outcomes": {
+    "eligible": {
+      "title": "You look *eligible*",
+      "message": "Based on your answers you may qualify for a bulk-billed telehealth consultation. Leave your details and the Hope Medics team will call you to book."
+    },
+    "potentiallyEligible": {
+      "title": "You may be *eligible*",
+      "message": "This looks like it may meet a Medicare telehealth exemption. Leave your details and the Hope Medics team will confirm it with you when they call to book."
+    },
+    "notEligible": {
+      "title": "You may not be eligible for *bulk-billed telehealth*",
+      "message": "Bulk-billed telehealth needs a valid Medicare card and either a recent face-to-face visit or a listed exemption. Please contact the practice and the team can talk through your options."
+    }
+  },
+  "flaggedNote": "We couldn't confirm your area automatically, so the team will check this with you when they call."
+}
